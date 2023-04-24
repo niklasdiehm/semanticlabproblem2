@@ -48,7 +48,7 @@ class MyObjectHandler:
             date = table.find_all('tr')[8].find_all('td')[1].text
             return "This are the number of killed ukrainian soldiers: " + killed + " on " + date
         elif question == "ukrainian_soldiers":
-            killed = table.find_all('tr')[7].find_all('td')[0].text.split("")[0]
+            killed = table.find_all('tr')[7].find_all('td')[0].text.split(" ")[0]
             date = table.find_all('tr')[7].find_all('td')[1].text
             return "This are the number of killed ukrainian soldiers: " + killed + " on " + date
         return "I can't answer this question."

@@ -1,14 +1,20 @@
 + *
-- I'm not sure I understand you fully.
-- Please go on.
-- That is interesting. Please continue.
-- Tell me more about that.
-- Does talking about this bother you?
+- I don´t know what you mean. I can answer you questions about the war between Ucraine and russia.
+
++ * civilians *
+- <set question=civilians><call>war_function</call>
 
 + * civilians have died *
 - <set question=civilians><call>war_function</call>
 
-+ russia *
++ * russian soldiers *
+- <set question=russian_soldiers><call>war_function</call>
+
++ * ukrainian soldiers *
+- <set question=ukrainian_soldiers><call>war_function</call>
+
++ [*] russia [*]
 - <set country=russia><call>war_function</call>
 
-+ ucraine *
++ [*] ucraine [*]
+- <set country=ucraine><call>war_function</call>
