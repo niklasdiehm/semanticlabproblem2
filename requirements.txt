@@ -1,2 +1,3 @@
 rivescript
 beautifulsoup4
+requests
